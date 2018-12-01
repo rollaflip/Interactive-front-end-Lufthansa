@@ -5,41 +5,109 @@
  https://autoprefixer.github.io/ was used to make sure I only added what was needed
  *************************/
 
-.bx-step-active{
-  background-color:#FFC317;
-  padding: 1.5em;
+.bx-step-active {
+  background-color: #ffc317;
+  padding: .8em;
+}
+img{
+  width: 30%
+;}
 
+
+.bx-row-submit input{
+  /* border: 1px solid #1a3b72; */
+  /* -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; */
+  font-size: 120%;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  /* font-weight: bold; */
+  color: #ffffff;
+  background-color: #2553a0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#2553a0),
+    to(#070a6d)
+  );
+  background-image: -webkit-linear-gradient(top, #2553a0, #070a6d);
+  background-image: -moz-linear-gradient(top, #2553a0, #070a6d);
+  background-image: -ms-linear-gradient(top, #2553a0, #070a6d);
+  background-image: -o-linear-gradient(top, #2553a0, #070a6d);
+  background-image: linear-gradient(to bottom, #2553a0, #070a6d);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2553A0, endColorstr=#070A6D);
 }
 
-.button{
-border:1px solid #1a3b72; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
- background-color: #2553A0; background-image: -webkit-gradient(linear, left top, left bottom, from(#2553A0), to(#070A6D));
- background-image: -webkit-linear-gradient(top, #2553A0, #070A6D);
- background-image: -moz-linear-gradient(top, #2553A0, #070A6D);
- background-image: -ms-linear-gradient(top, #2553A0, #070A6D);
- background-image: -o-linear-gradient(top, #2553A0, #070A6D);
- background-image: linear-gradient(to bottom, #2553A0, #070A6D);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2553A0, endColorstr=#070A6D);
-}
-
-.button:hover{
- border:0px solid #12284d;
- background-color: #1b3e77; background-image: -webkit-gradient(linear, left top, left bottom, from(#1b3e77), to(#04063d));
- background-image: -webkit-linear-gradient(top, #1b3e77, #04063d);
- background-image: -moz-linear-gradient(top, #1b3e77, #04063d);
- background-image: -ms-linear-gradient(top, #1b3e77, #04063d);
- background-image: -o-linear-gradient(top, #1b3e77, #04063d);
- background-image: linear-gradient(to bottom, #1b3e77, #04063d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#1b3e77, endColorstr=#04063d);
+.bx-row-submit input:hover {
+  border: 0px solid #12284d;
+  background-color: #1b3e77;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#1b3e77),
+    to(#04063d)
+  );
+  background-image: -webkit-linear-gradient(top, #1b3e77, #04063d);
+  background-image: -moz-linear-gradient(top, #1b3e77, #04063d);
+  background-image: -ms-linear-gradient(top, #1b3e77, #04063d);
+  background-image: -o-linear-gradient(top, #1b3e77, #04063d);
+  background-image: linear-gradient(to bottom, #1b3e77, #04063d);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00235f, endColorstr=#04063d);
 }
 
 .shadowBox {
   width: 5%;
-  -webkit-box-shadow: 0 6px 4px -4 gray;
-  -moz-box-shadow: 0 6px 4px -4px gray;
-  box-shadow: 0 6px 4px -3px gray;
+  -webkit-box-shadow: 0 6px 4px -4px gray;
+  box-shadow: 0 6px 4px -4px gray;
 }
 
-.innerShadow{
+/* .innerShadow {
   -webkit-box-shadow: inset 0 0 10px gray;
-  -moz-box-shadow: inset 0 0 10px gray;
-  box-shadow:  inset 0 0 10px gray;
+  box-shadow: inset 0 0 10px gray;
+} */
+
+.bx-group-1{
+  /* margin-top: 5% */
+  color:#00235f
+}
+.bx-row-headline-1{
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+.bx-row-headline-2{
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+.bx-row-subheadline{
+  font-size: .8em
+}
+
+
+.bx-row-email input{
+  height: 2em;
+  width: 50% !important;
+  border: none !important;
+  font-weight: lighter;
+  /* color: #DCDCDC; */
+
+}
+.bx-row-submit input{
+width: 50% !important;
+}
+
+
+
+
+input{
+  text-align: center;
+  -webkit-box-shadow: inset 0 0 10px gray;
+  box-shadow: inset 0 0 7px gray;
 }
