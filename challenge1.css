@@ -1,9 +1,13 @@
 /*************************
  *  your code goes here  *
+
+ To make my Syles multi browser compatible I used prefixes where necessary
+ https://autoprefixer.github.io/ was used to make sure I only added what was needed
  *************************/
 
-.popUp{
+.bx-step-active{
   background-color:#FFC317;
+  padding: 1.5em;
 
 }
 
@@ -29,7 +33,13 @@ border:1px solid #1a3b72; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 
 .shadowBox {
   width: 5%;
-  /* -webkit-box-shadow: 0 6px 4px -4 gray;
-  -moz-box-shadow: 0 6px 4px -4px gray; */
+  -webkit-box-shadow: 0 6px 4px -4 gray;
+  -moz-box-shadow: 0 6px 4px -4px gray;
   box-shadow: 0 6px 4px -3px gray;
+}
+
+.innerShadow{
+  -webkit-box-shadow: inset 0 0 10px gray;
+  -moz-box-shadow: inset 0 0 10px gray;
+  box-shadow:  inset 0 0 10px gray;
 }
