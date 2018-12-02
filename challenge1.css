@@ -6,59 +6,56 @@
  *************************/
 
 .bx-step-active {
-  background-color: #ffc317;
-  padding: .8em;
+  background-color: #ffc216;
+  padding: 0.8em;
 }
-img{
-  width: 30%
-;}
+img {
+  width: 35%;
+  margin-top: .65%
+}
 
-
-.bx-row-submit input{
+.bx-row-submit input {
+  border: none !important;
+  width: 58% !important;
   /* border: 1px solid #1a3b72; */
-  /* -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px; */
-  font-size: 120%;
-  font-family: arial, helvetica, sans-serif;
-  padding: 10px 10px 10px 10px;
+  font-size: 140%;
+  height: 2em;
+  font-weight: lighter;
   text-decoration: none;
-  display: inline-block;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
-  /* font-weight: bold; */
   color: #ffffff;
-  background-color: #2553a0;
+  background-color: #000066;
   background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(#2553a0),
-    to(#070a6d)
+    to(#000066)
   );
-  background-image: -webkit-linear-gradient(top, #2553a0, #070a6d);
-  background-image: -moz-linear-gradient(top, #2553a0, #070a6d);
-  background-image: -ms-linear-gradient(top, #2553a0, #070a6d);
-  background-image: -o-linear-gradient(top, #2553a0, #070a6d);
-  background-image: linear-gradient(to bottom, #2553a0, #070a6d);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2553A0, endColorstr=#070A6D);
+  background-image: -webkit-linear-gradient(top, #2553a0, #000066);
+  background-image: -moz-linear-gradient(top, #2553a0, #000066);
+  background-image: -ms-linear-gradient(top, #2553a0, #000066);
+  background-image: -o-linear-gradient(top, #2553a0, #000066);
+  background-image: linear-gradient(to bottom, #2553a0, #000066);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2553A0, endColorstr=#000066);
 }
 
 .bx-row-submit input:hover {
   border: 0px solid #12284d;
-  background-color: #1b3e77;
+  background-color: #000764;
   background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(#1b3e77),
-    to(#04063d)
+    to(#000764)
   );
-  background-image: -webkit-linear-gradient(top, #1b3e77, #04063d);
-  background-image: -moz-linear-gradient(top, #1b3e77, #04063d);
-  background-image: -ms-linear-gradient(top, #1b3e77, #04063d);
-  background-image: -o-linear-gradient(top, #1b3e77, #04063d);
-  background-image: linear-gradient(to bottom, #1b3e77, #04063d);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00235f, endColorstr=#04063d);
+  background-image: -webkit-linear-gradient(top, #1b3e77, #000764);
+  background-image: -moz-linear-gradient(top, #1b3e77, #000764);
+  background-image: -ms-linear-gradient(top, #1b3e77, #000764);
+  background-image: -o-linear-gradient(top, #1b3e77, #000764);
+  background-image: linear-gradient(to bottom, #1b3e77, #000764);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00235f, endColorstr=#000764);
 }
 
 .shadowBox {
@@ -67,47 +64,75 @@ img{
   box-shadow: 0 6px 4px -4px gray;
 }
 
-/* .innerShadow {
-  -webkit-box-shadow: inset 0 0 10px gray;
-  box-shadow: inset 0 0 10px gray;
-} */
-
-.bx-group-1{
+.bx-group-1 {
   /* margin-top: 5% */
-  color:#00235f
-}
-.bx-row-headline-1{
-  font-size: 200%;
-  font-weight: bolder;
-}
+  color: #000066;
+  margin-bottom: 6%;
 
-.bx-row-headline-2{
-  font-size: 300%;
-  font-weight: bolder;
 }
-
-.bx-row-subheadline{
-  font-size: .8em
-}
-
-
-.bx-row-email input{
-  height: 2em;
-  width: 50% !important;
-  border: none !important;
+/* join Lufthansa */
+.bx-row-subheadline {
+  /* line-height: 4%; */
+  font-size: 88%;
   font-weight: lighter;
-  /* color: #DCDCDC; */
-
-}
-.bx-row-submit input{
-width: 50% !important;
+  margin-top: 6.33%;
+  margin-bottom: -10px;
+  letter-spacing: -.45px
 }
 
+/* unlock exlusive */
+.bx-row-headline-1 {
+  font-size: 222%;
+  font-weight: bolder;
+  line-height: 135%;
+  /* letter-spacing: -1.8px */
+  letter-spacing: -1.0px
+}
 
+/* flight offers */
+.bx-row-headline-2 {
+  font-size: 324%;
+  font-weight: bolder;
+  line-height: 12%;
+  margin-top: 10%;
+  letter-spacing: -1.7px
+  /* margin-bottom: 40% */
+}
 
+.bx-group-2 {
+  /* margin-top: 5% */
+  margin-bottom: 7%;
+}
 
-input{
+.bx-row-email input {
+  height: 0.1em !important;
+  width: 58% !important;
+  /* border: none !important; */
+  border: 1.8px solid  rgba(148, 148, 148, 0.233) !important;
+  border-style: inset;
+  font-weight: lighter;
+}
+
+input {
   text-align: center;
-  -webkit-box-shadow: inset 0 0 10px gray;
-  box-shadow: inset 0 0 7px gray;
+  /* -webkit-box-shadow: inset 0 0 10px gray;
+  box-shadow: inset 0 0 7px gray; */
+
+  -webkit-box-shadow: 0 6px 4px -4px gray;
+  box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582);
+}
+
+input[type='email'] {
+  font-size: 75%;
+  font-weight: lighter;
+  color: black;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(53, 53, 53, 0.322);
+  /* opacity: 1; Firefox */
+}
+
+bx-row{
 }
