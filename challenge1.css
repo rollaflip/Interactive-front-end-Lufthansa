@@ -4,43 +4,87 @@
  To make my Syles multi browser compatible I used prefixes where necessary
  https://autoprefixer.github.io/ was used to make sure I only added what was needed
  *************************/
-
+ .bx-creative-1{
+   width: 50%
+ }
 .bx-step-active {
-  background-color: #ffc216;
   padding: 0.8em;
+  background-color: #ffc216;
+  background-image: url(lufthansa-4-logo-png-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position: top center;
 }
 img {
   width: 35%;
   margin-top: .65%
 }
 
-.bx-row-submit input {
+/* .divider-line {
+  position:absolute;
+  left:30%;
+  top:10%;
+  bottom:10%;
+  border-left:1px solid white;
+  z-index: 999;
+  overflow: hidden;
+} */
+.separator {
+  content: '';
+  display: inline-block;
+  background: #888;
+  margin: 0px 4px;
+  height: 18px;
+  width: 1px;
+  vertical-align: top;
+}
+
+
+
+.bx-row-submit input{
   border: none !important;
+  position: absolute;
+  /* border-left:1px solid inset !important; */
+
+
+  /* border-right: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+  border-color: red !important; */
+  /* outline: 2px solid orange; */
+  /* outline-offset: -20px; */
+
+
   width: 58% !important;
   /* border: 1px solid #1a3b72; */
   font-size: 140%;
-  height: 2em;
+  height: 2.1em;
   font-weight: lighter;
   text-decoration: none;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
   color: #ffffff;
+  box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582);
   background-color: #000066;
-  background-image: -webkit-gradient(
+  background-image: url(white-arrow.png),linear-gradient(#2553a0, #000066);
+  background-size: 7%;
+  background-repeat: no-repeat, repeat;
+  background-position: 6.25% 50%;
+  /* background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(#2553a0),
     to(#000066)
-  );
+  ), url(iconfinder_arrow-alt-right_49817.png);
   background-image: -webkit-linear-gradient(top, #2553a0, #000066);
   background-image: -moz-linear-gradient(top, #2553a0, #000066);
   background-image: -ms-linear-gradient(top, #2553a0, #000066);
   background-image: -o-linear-gradient(top, #2553a0, #000066);
   background-image: linear-gradient(to bottom, #2553a0, #000066);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2553A0, endColorstr=#000066);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#2553A0, endColorstr=#000066); */
 }
 
-.bx-row-submit input:hover {
+/* .bx-row-submit input:hover {
   border: 0px solid #12284d;
   background-color: #000764;
   background-image: -webkit-gradient(
@@ -55,13 +99,11 @@ img {
   background-image: -ms-linear-gradient(top, #1b3e77, #000764);
   background-image: -o-linear-gradient(top, #1b3e77, #000764);
   background-image: linear-gradient(to bottom, #1b3e77, #000764);
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#00235f, endColorstr=#000764);
-}
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#1b3e77, endColorstr=#000764);
+} */
 
-.shadowBox {
-  width: 5%;
-  -webkit-box-shadow: 0 6px 4px -4px gray;
-  box-shadow: 0 6px 4px -4px gray;
+.bx-row-submit input span{
+
 }
 
 .bx-group-1 {
@@ -95,8 +137,8 @@ img {
   font-weight: bolder;
   line-height: 12%;
   margin-top: 10%;
-  letter-spacing: -1.7px
-  /* margin-bottom: 40% */
+  letter-spacing: -1.7px;
+  margin-top: .25px
 }
 
 .bx-group-2 {
@@ -105,12 +147,20 @@ img {
 }
 
 .bx-row-email input {
-  height: 0.1em !important;
-  width: 58% !important;
+  /* height: 2.5em !important; */
+  /* width: 58% !important; */
   /* border: none !important; */
-  border: 1.8px solid  rgba(148, 148, 148, 0.233) !important;
-  border-style: inset;
+  /* border: 1.8px solid  rgba(148, 148, 148, 0.233) !important; */
+
   font-weight: lighter;
+}
+
+.bxc .bx-creative input[type="email"]{
+  border: .02px solid rgba(255, 255, 255, 0.596);
+  border-style: inset;
+  height: 2.5em ;
+  width: 58%;
+  box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582), inset 0 0 12px -2px rgb(100, 100, 100);
 }
 
 input {
@@ -118,8 +168,8 @@ input {
   /* -webkit-box-shadow: inset 0 0 10px gray;
   box-shadow: inset 0 0 7px gray; */
 
-  -webkit-box-shadow: 0 6px 4px -4px gray;
-  box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582);
+  /* -webkit-box-shadow: 0 6px 4px -4px gray; */
+
 }
 
 input[type='email'] {
@@ -130,9 +180,7 @@ input[type='email'] {
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(53, 53, 53, 0.322);
+  color: rgba(59, 59, 59, 0.322);
   /* opacity: 1; Firefox */
 }
 
-bx-row{
-}
