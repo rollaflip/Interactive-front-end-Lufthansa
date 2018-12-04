@@ -89,6 +89,7 @@ img {
   color: #000066;
   margin-bottom: 6%;
 }
+
 /* join Lufthansa */
 .bx-row-subheadline {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -156,33 +157,76 @@ input[type='email'] {
   .bx-row-headline-1,
   .bx-row-headline-2 {
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
+    /* margin-top: 53px; */
   }
+
+  .bx-row .bx-row-headline-1 {
+    margin-bottom: 13px;
+    font-size: 30px;
+  }
+
+  .bx-row .bx-row-headline-2 {
+    margin-bottom: 5px;
+    font-size: 43px;
+  }
+
+  .bx-row-subheadline-1 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+
   .bx-row-headline-2 {
     margin-top: -15px !important;
   }
+
   .bx-type .bx-creative {
-    width: 320px;
-    min-height: 350px;
-  }
-  .bx-row-subheadline-1 {
-    font-size: 90%;
+    background-color: #ffc216;
+    min-height: 300px;
   }
   .bx-step.bx-step-1.bx-step-active {
     background-size: 50%;
     margin-bottom: 20px;
   }
+
   .bx-type::after {
     display: none;
   }
+
+  .bx-group-1 {
+    margin-top: 15px;
+  }
+
   .bxc .bx-creative input[type='email'] {
     width: 100%;
     /* font-weight:bold; */
     height: 40px;
   }
+
   .bxc .bx-creative input[type='submit'] {
     width: 100%;
-    font-size: 100%;
+    font-size: 20px;
     height: 55px;
+    margin-bottom: -25px;
+  }
+
+  /* icon */
+  .bxc .bx-close-circle {
+    width: 1em;
+    margin-top: 8px;
   }
 }
+
+
+/* @media (max-width: 700px) and (min-width: 501px) {
+  .bx-row-subheadline-1 {
+    font-size: 100px;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  .bxc .bx-close-circle {
+    width: 2em;
+    margin-top: 8px;
+  }
+} */
