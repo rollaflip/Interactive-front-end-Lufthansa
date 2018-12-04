@@ -3,6 +3,8 @@
 
  To make my Syles multi browser compatible I used prefixes where necessary
  https://autoprefixer.github.io/ was used to make sure I only added what was needed
+
+ media queries are optimized for iphone 5 and larger
  *************************/
 
  .bx-creative-1 {
