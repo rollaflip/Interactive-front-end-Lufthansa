@@ -5,11 +5,10 @@
  https://autoprefixer.github.io/ was used to make sure I only added what was needed
  *************************/
 
-
- .bx-creative-1{
-   width: 50%
- }
- .bx-step.bx-step-1.bx-step-active {
+.bx-creative-1 {
+  width: 50%;
+}
+.bx-step.bx-step-1.bx-step-active {
   padding: 0.8em;
   background-color: #ffc216;
   background-image: url(lufthansa-4-logo-png-transparent.png);
@@ -18,16 +17,17 @@
   background-position: top 4% center, top 4% right 2%;
 }
 
-.bx-type{
+.bx-type {
   overflow: hidden;
 }
 
-.bx-type::after{/*triangle*/
+.bx-type::after {
+  /*triangle*/
   /* background-image: url(un-lock-icon.png); */
   border-top: 111px solid #ffc216;
   border-left: 111px solid transparent;
-  content: "";
-  filter: drop-shadow(-1px 1px 6px  rgba(4, 4, 4, 0.288));
+  content: '';
+  filter: drop-shadow(-1px 1px 6px rgba(4, 4, 4, 0.288));
   position: absolute;
   top: 0;
   right: 0;
@@ -35,7 +35,7 @@
 
 img {
   width: 35%;
-  margin-top: .65%
+  margin-top: 0.65%;
 }
 
 /*icon*/
@@ -44,28 +44,24 @@ img {
   overflow: hidden;
   width: 2em;
   content: url(un-lock-icon.png);
-  margin-right: -.5em;
-  margin-top: .30em;
+  margin-right: -0.5em;
+  margin-top: 0.3em;
   box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.322);
-
 }
 
-
-
-.bx-row-submit-input::after{
-  content: "";
-position: absolute;
-left: 5em;
-background-color: grey;
-width: 1px;
-height: 8px;
+.bx-row-submit-input::after {
+  content: '';
+  position: absolute;
+  left: 5em;
+  background-color: grey;
+  width: 1px;
+  height: 8px;
 }
 
-
-.bxc .bx-creative input[type="submit"]{
-  border: none ;
+.bxc .bx-creative input[type='submit'] {
+  border: none;
   /* position: absolute; */
-  width: 58% ;
+  width: 58%;
   /* border: 1px solid #1a3b72; */
   font-size: 130%;
   height: 2.1em;
@@ -77,24 +73,21 @@ height: 8px;
   box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582);
 
   background-color: #000066;
-  background-image: url(white-arrow.png),linear-gradient(#2553a0, #000066);
+  background-image: url(white-arrow.png), linear-gradient(#2553a0, #000066);
   background-size: 7%;
   background-repeat: no-repeat, repeat;
   background-position: 6.25% 50%;
-
 }
 
-.bxc .bx-creative input[type="submit"]:hover {
+.bxc .bx-creative input[type='submit']:hover {
   text-shadow: -1px -1px 0 rgba(209, 209, 209, 0.3);
-  box-shadow: none
+  box-shadow: none;
 }
-
 
 .bx-group-1 {
   /* margin-top: 5% */
   color: #000066;
   margin-bottom: 6%;
-
 }
 /* join Lufthansa */
 .bx-row-subheadline {
@@ -124,7 +117,7 @@ height: 8px;
   line-height: 12%;
   margin-top: 10%;
   /* letter-spacing: -1.7px; */
-  margin-top: .25px
+  margin-top: 0.25px;
 }
 
 .bx-group-2 {
@@ -132,16 +125,15 @@ height: 8px;
   margin-bottom: 7%;
 }
 
-
-
-.bxc .bx-creative input[type="email"]{
+.bxc .bx-creative input[type='email'] {
   font-weight: lighter;
-  border: .02px solid rgba(255, 255, 255, 0.596);
+  border: 0.02px solid rgba(255, 255, 255, 0.596);
   border-style: inset;
-  height: 2.55em ;
+  height: 2.55em;
   width: 58%;
-  box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582), inset 0 0 12px -2px rgb(100, 100, 100);
-  margin-bottom: -.2em;
+  box-shadow: 0 6.5px 4px -4px rgba(87, 87, 87, 0.582),
+    inset 0 0 12px -2px rgb(100, 100, 100);
+  margin-bottom: -0.2em;
 }
 
 input {
@@ -160,15 +152,16 @@ input[type='email'] {
 }
 
 /*  Media Queries  */
- @media (max-width: 500px) and (min-width: 100px) {
-  .bx-row-headline-1, .bx-row-headline-2 {
+@media (max-width: 500px) and (min-width: 100px) {
+  .bx-row-headline-1,
+  .bx-row-headline-2 {
     font-size: 30px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
   }
   .bx-row-headline-2 {
     margin-top: -15px !important;
   }
-  .bx-type .bx-creative  {
+  .bx-type .bx-creative {
     width: 320px;
     min-height: 350px;
   }
@@ -176,19 +169,19 @@ input[type='email'] {
     font-size: 90%;
   }
   .bx-step.bx-step-1.bx-step-active {
-   background-size: 50%;
+    background-size: 50%;
     margin-bottom: 20px;
   }
-  .bx-type::after{
+  .bx-type::after {
     display: none;
   }
-  .bxc .bx-creative input[type="email"] {
+  .bxc .bx-creative input[type='email'] {
     width: 100%;
     /* font-weight:bold; */
     height: 40px;
   }
-  .bxc .bx-creative input[type="submit"] {
-    width: 100% ;
+  .bxc .bx-creative input[type='submit'] {
+    width: 100%;
     font-size: 100%;
     height: 55px;
   }
