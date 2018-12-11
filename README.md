@@ -1,5 +1,6 @@
-# Interactive-front-end-bounceX
-creating interactive ad from wireframe
+# Interactive-front-end Pop-up Ad
+Purpose: Create an interactive ad from wireframe.
+Ad is responsive across platoforms, browsers/ devices
 
 #Author
 Ian Knepper
