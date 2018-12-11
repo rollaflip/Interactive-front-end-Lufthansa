@@ -16,7 +16,7 @@ Ad is responsive across platoforms, browsers/ devices<br>
 * Media Queries
 
 ## Wireframe
-![Preview1](./assets/wireframe-popup.png | width=66)
+![Preview1](./assets/wireframe-popup.png width="400")
 
 # My Work
 ![Preview1](./assets/my-pop-up.png)
