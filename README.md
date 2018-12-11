@@ -2,11 +2,16 @@
 Purpose: Create an interactive ad from wireframe.
 Ad is responsive across platoforms, browsers/ devices
 
-#Author
+# Author
 Ian Knepper
 
-#Stack
+# Stack
 Vanilla CSS
 
+# Wireframe
+![Preview1](./assets/wireframe-popup.png)
 
+# My Work
 ![Preview1](./assets/my-pop-up.png)
+
+
