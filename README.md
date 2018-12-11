@@ -16,12 +16,12 @@ Ad is responsive across platoforms, browsers/ devices<br>
 * Media Queries
 
 ## Wireframe
-![Preview1](./assets/wireframe-popup.png)
+![Preview1](./assets/wireframe-popup.png | width=66)
 
 # My Work
 ![Preview1](./assets/my-pop-up.png)
 
 ## Authors
 
-* **Ian Knepper** - *Initial work* - (https://github.com/rollaflip)
+* **Ian Knepper** - *Initial work* - (https://github.com/rollaflip | width=66)
 
