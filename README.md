@@ -3,7 +3,7 @@
 
 
 Purpose: Create an interactive ad from wireframe.<br>
-Ad is responsive across platoforms, browsers/ devices<br>
+Ad is responsive across platoforms/ browsers/ devices<br>
 
 ### To run show pop-up in your browser:
 ```
